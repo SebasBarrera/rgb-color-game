@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    margin:0;
+    background-color:#232323;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: steelblue;
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px; 
+}
+
+#displayColor {
+    font-size: 200%;
+}
+
+#barra {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+}
+
+button {
+    background-color: white;
+    color: steelblue;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    outline: none;
+    height: 100%;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+#mensaje {
+    width: 30%;
+    display: inline-block;
+    color: white;
+}
+
+.square {
+    background-color: rgb(188, 85, 138);
+    width: 30%;
+    padding-top: 30%;
+    float: left;
+    margin: 1.666666666666666666667%;  
+    border-radius: 15%;
+}
+
+#container {
+    width: 42%;
+    margin: 20px auto;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+#displayColor {
+    color: steelblue;
+}
+
+#novato:active{
+    color: red;
+}
+
+
